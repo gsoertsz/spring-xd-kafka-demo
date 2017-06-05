@@ -1,0 +1,9 @@
+server:
+  port: 8080
+kafka:
+  servers:
+    bootstrap: kafka:9092
+  topics:
+    record: test
+    proxy: test-proxy
+  group: test

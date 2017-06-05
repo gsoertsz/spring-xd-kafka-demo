@@ -1,0 +1,76 @@
+{
+  "body": [
+    {
+      "transaction": [
+        {
+          "timestamp": "2016-10-14T18:44:43.594+11:00",
+          "guid": "c215ed09-fb5e-47cc-97d4-c812e9bb9ace",
+          "payload": {
+            "win_liability": 22,
+            "reject_string": "this is a string",
+            "customer_num": 5678765,
+            "flexi_percent": 12.4,
+            "jurisdiction": "VIC",
+            "bet_currency": "AUD",
+            "profile": "Square",
+            "cash_out": 22.60,
+            "num_of_combins": 1,
+            "total_cost": 10,
+            "win_price": 3.2,
+            "account_id": 15676,
+            "outlet_name": "Outlet1",
+            "trans_type": "Sell",
+            "reject_code": "Reject",
+            "intercept_note": "InterceptNote",
+            "source": "VDIA3",
+            "place_time": "2016-10-14T18:44:43.000+11:00",
+            "num_of_selections": 1,
+            "win_payout": 32,
+            "cash_out_percentage": 12.5,
+            "is_free_bet": 0,
+            "multi_price_type": "MultiType",
+            "is_betback": 0,
+            "bet_id": 1850821,
+            "guest_id": "92839797#9282",
+            "loyalty_num": "Loyalty1",
+            "transaction_id": "5B6EB1D709114204A882E7B759ED4F75F3A4F747",
+            "outlet_id": "Outlet1",
+            "win_stake": 10,
+            "first_name": "Random",
+            "multi_bet_type": "multiBetType",
+            "selections": [
+              {
+                "market_name": "HATRICK R10 14/10",
+                "sub_category_name": "Hatrick (NZL)",
+                "event_id": 73424,
+                "market_cmd_name": "GZHTHATR21",
+                "bet_type": "Win",
+                "product": "TAB FO",
+                "market_id": 13808751,
+                "market_selection_details_id": 263959,
+                "win_price": 3.2,
+                "category_id": 19,
+                "event_name": "HATRICK R10 14/10",
+                "selection_name": "Random selection",
+                "market_type_id": 54,
+                "is_racing": 1,
+                "sub_category_id": 5010006,
+                "selection_position": "1",
+                "prop_id": 169551,
+                "bet_market_selection_id": 3151517,
+                "is_live_bet": 0,
+                "place_price": 34.2,
+                "price_prefix": 23.0,
+                "category_name": "Greyhound Racing"
+              }
+            ],
+            "selections_string": "169551",
+            "last_name": "Person"
+          },
+          "object_type": "bet",
+          "action_type": "create"
+        }
+      ]
+    }
+  ]
+}

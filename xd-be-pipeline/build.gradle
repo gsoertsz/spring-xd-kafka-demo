@@ -1,0 +1,66 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://repo.spring.io/plugins-release"
+        }
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.springframework.xd:spring-xd-module-plugin:1.2.0.RELEASE'
+    }
+}
+
+group 'org.gsoertsz.xd.kafka'
+
+ext {
+    springXdVersion = '1.3.0.RELEASE'
+    version '1.0-SNAPSHOT'
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'spring-xd-module'
+
+sourceCompatibility = 1.8
+
+sourceSets {
+    generated {
+        java
+    }
+}
+
+jar {
+    baseName = rootProject.name
+    sourceSets.generated.output
+    mainClassName = ''
+}
+
+repositories {
+    maven { url "https://repo.spring.io/release" }
+    maven {
+        url "http://localhost:8081/artifactory/libs-snapshot-local"
+        credentials {
+            username = "admin"
+            password = "admin"
+        }
+    }
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile 'org.springframework.xd:spring-xd-dirt:1.3.0.RELEASE'
+
+
+    compile("org.springframework.integration:spring-integration-core:4.3.9.RELEASE")
+    compile("org.springframework.xd:spring-xd-module:1.3.0.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter") {
+        exclude module: 'commons-logging:commons-logging'
+    }
+
+    compile("org.gsoertsz.xd.kafka.messaging:messaging:0.1-SNAPSHOT")
+
+}

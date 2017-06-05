@@ -1,0 +1,5 @@
+.idea
+*.log
+*.SNAPSHOT.jar
+module_registry_data/
+bedp-xd*

@@ -1,0 +1,11 @@
+*.iws
+*.iml
+*.ipr
+*.jpg
+*.png
+*.DS_Store
+build/
+*.class
+.gradle
+.idea
+

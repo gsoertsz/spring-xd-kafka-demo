@@ -1,0 +1,12 @@
+{
+    "namespace": "org.gsoertsz.common.messaging.bet.avro",
+    "name": "Transaction",
+    "type": "record",
+    "fields": [
+        { "name":"timestamp", "type":"string" },
+        { "name":"guid", "type":"string" },
+        { "name":"payload", "type":"Payload" },
+        { "name":"object_type", "type":"string" },
+        { "name":"action_type", "type":"string" }
+    ]
+}

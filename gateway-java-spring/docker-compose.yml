@@ -1,0 +1,8 @@
+version: '2'
+services:
+    gateway-api:
+        image: gateway-api:latest
+        container_name: gateway-api
+        ports:
+            - 8100:8099
+    

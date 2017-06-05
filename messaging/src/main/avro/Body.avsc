@@ -1,0 +1,8 @@
+{
+    "namespace": "org.gsoertsz.common.messaging.bet.avro",
+    "name": "Body",
+    "type": "record",
+    "fields": [
+        { "name": "transaction", "type": { "type": "array", "items": "Transaction"} }
+    ]
+}

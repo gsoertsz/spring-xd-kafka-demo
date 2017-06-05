@@ -1,0 +1,29 @@
+{
+    "namespace": "org.gsoertsz.common.messaging.bet.avro",
+    "name": "Selection",
+    "type": "record",
+    "fields": [
+        { "name":"market_name", "type":"string" },
+        { "name":"sub_category_name", "type":"string" },
+        { "name":"event_id", "type":"long" },
+        { "name":"market_cmd_name", "type":"string" },
+        { "name":"bet_type", "type":"string" },
+        { "name":"product", "type":"string" },
+        { "name":"market_id", "type":"long" },
+        { "name":"market_selection_details_id", "type":"long" },
+        { "name":"win_price", "type":"double" },
+        { "name":"category_id", "type":"int" },
+        { "name":"event_name", "type":"string" },
+        { "name":"selection_name", "type":"string" },
+        { "name":"market_type_id", "type":"int" },
+        { "name":"is_racing", "type":"int" },
+        { "name":"sub_category_id", "type":"long" },
+        { "name":"selection_position", "type":"string" },
+        { "name":"prop_id", "type":"long" },
+        { "name":"bet_market_selection_id", "type":"long" },
+        { "name":"is_live_bet", "type":"int" },
+        { "name":"place_price", "type":"double" },
+        { "name":"price_prefix", "type":"double" },
+        { "name":"category_name", "type":"string" }
+    ]
+}

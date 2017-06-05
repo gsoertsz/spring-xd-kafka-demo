@@ -1,0 +1,8 @@
+version: '2'
+services:
+    kafka-consumer-avro:
+        image: kafka-consumer-avro:latest
+        container_name: kafka-consumer-avro
+        ports:
+            - 8080:8080
+    

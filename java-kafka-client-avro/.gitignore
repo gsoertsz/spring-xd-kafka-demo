@@ -1,0 +1,9 @@
+.idea
+.gradle
+gradle
+build
+node_modules
+*.vscode
+*.iws
+*.ipr
+*.iml

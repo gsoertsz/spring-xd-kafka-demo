@@ -1,0 +1,8 @@
+version: '2'
+services:
+    java-dispatcher:
+        image: java-dispatcher:latest
+        container_name: java-dispatcher
+        ports:
+            - 8080:8080
+    
